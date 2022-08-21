@@ -1,0 +1,31 @@
+{
+  "name": "bazaar-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "monitor": "nodemon app",
+    "dev": "node app --inspect",
+    "build": "tsc -w app.tsc",
+    "gitCommand": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafaAli42/bazaar-shop.git"
+  },
+  "keywords": [],
+  "author": "Safa Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SafaAli42/bazaar-shop/issues"
+  },
+  "homepage": "https://github.com/SafaAli42/bazaar-shop#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0"
+  }
+}
